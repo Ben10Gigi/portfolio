@@ -1,0 +1,24 @@
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+$grey: #5D5C61;
+
+.navbar {
+    background-color: transparent;
+}
+.jumbotron-main {
+    background-color: transparent !important;
+}
+// .ownBadges {
+//     background-color: #938E94;
+//     color: white;
+//   }
+@include media-breakpoint-up(md) {
+    .card .projectCards {
+        font-size: 2rem;
+    }
+}
+.card .projectCards {
+    font-size: 1.5rem;
+}

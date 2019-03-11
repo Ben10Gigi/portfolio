@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/node_modules/animate/animate.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark p-0 mainNav">
+                <button class="navbar-toggler ml-auto mr-2 mt-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto w-100 justify-content-around">
+                        <li class="nav-item homeNav mx-4">
+                            <a class="nav-link p-3" href="..">Home</a>
+                        </li>
+                        <li class="nav-item projectsNav mx-4">
+                            <a class="nav-link p-3" href="\projects">Projects</a>
+                        </li>
+                        <li class="nav-item resumeNav mx-4">
+                            <a class="nav-link p-3" href="/assets/documents/Dennis_Marrero_Resume.pdf" target="_blank">Resume</a>
+                        </li>
+                        <li class="nav-item contactNav mx-4">
+                            <a class="nav-link p-3" href="\contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </div>
+    </div><body>
+
+    <style>
+.homeNav {
+    border-bottom: 10px solid #938E94;
+    margin: 0;
+}
+#skillsHr {
+    width: 70%;
+}
+</style>
+
+<div class="container-fluid">
+    <div class="row mt-1">
+        <div class="col mt-1">
+            <div class="jumbotron jumbotron-fluid mx-auto mt-0 mt-md-2 jumbotron-main">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-md-6 col-12 my-md-auto mb-4">
+                            <h1 class="display-4 my-0 my-md-2">Dennis Marrero<span id="blink">|</span></h1>
+                        </div>
+                        <div class="col-md-6 col-12 m-auto animated fadeIn delay-1s slow">
+                            <img src="\assets\images\me.jpg" class="img-thumbnail rounded-pill img-responsive mx-auto self" alt="..." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pb-10">
+        <div class="col-md-8 col-12 m-auto">
+            <p class="text-center mb-8 p-2 p-md-1 firstP animated fadeIn delay-2s">
+                Hey there, I'm Dennis, a front end designer &amp; developer. I'm passionate about learning new technologies and methods to curate various web apps and am always yearning for continuous improvement on my skills to further build and perfect my current knowledge set.
+            </p>
+        </div>
+    </div>
+    <div data-aos="fade-down" class="row mt-2 mt-md-10 mb-8 skills">
+        <div class="col-md-6 col-12">
+            <h3 class="text-center">Skills</h3>
+            <hr id="skillsHr" />
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-12 text-center">
+                        <ul class="skills p-0">
+                            <li>Web Development</li>
+                            <li>Responsive Web Design</li>
+                            <li>Microsoft Office 365</li>
+                            <li>G Suite</li>
+                            <li>Video/Image Editing</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <div class="col-md-6 col-12">
+            <h3 class="text-center">Technologies</h3>
+            <hr id="skillsHr" />
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-12 text-center">
+                        <ul class="skills p-0">
+                            <li>HTML/5</li>
+                            <li>CSS/3</li>
+                            <li>SASS</li>
+                            <li>Bootstrap</li>
+                            <li>Jekyll</li>
+                            <li>Javascript</li>
+                            <li>Markdown</li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<script>
+AOS.init();
+window.onbeforeunload = function () {
+window.scrollTo(0, 0);
+}
+</script>
+
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+<script src="http://localhost:4000/assets/js/scripts.js"></script>
+</body><div class="container-fluid">
+    <div class="row align-items-end foot">
+        <div class="col-12">
+            <div class="row justify-content-start px-0">
+                <div class="col-3 py-4 px-0 m-auto">
+                    <p class="m-auto copyright">© Dennis Marrero</p>
+                </div>
+                <div class="col-6 py-4 px-0 m-auto">
+                    <a href="https://github.com/Ben10Gigi" target="_blank"><i data-fa-symbol="github" class="fab fa-github"></i>
+                    <svg class="footIcon mx-1"><use xlink:href="#github"></use></svg></a>
+                    <a href="https://www.linkedin.com/in/dennis-m-23a870105/" target="_blank"><i data-fa-symbol="linkedin" class="fab fa-linkedin"></i>
+                    <svg class="footIcon mx-1"><use xlink:href="#linkedin"></use></svg></a>
+                    <a href="mailto:dennis.marrero29@gmail.com"><i data-fa-symbol="at" class="fas fa-at"></i>
+                    <svg class="footIcon mx-1"><use xlink:href="#at"></use></svg></a>
+                </div>
+        </div>
+    </div>
+</div></html>

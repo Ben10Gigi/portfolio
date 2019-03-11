@@ -1,0 +1,201 @@
+---
+---
+
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+$skyblue: #7395AE;
+$lightBlue: #9dd6ea;
+$opaqueGrey: rgba(177, 162, 150, .2);
+$grey: #938E94;
+$tan: rgb(177, 162, 150);
+$greyBlue: #56697b;
+$darkerGreyBlue: #3b4853;
+$bodyFont: 'Poppins', sans-serif;
+
+body {
+  background: linear-gradient(99deg, $greyBlue,  $lightBlue);
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  -o-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 45%}
+      50%{background-position:100% 56%}
+      100%{background-position:0% 45%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 45%}
+      50%{background-position:100% 56%}
+      100%{background-position:0% 45%}
+  }
+  @-o-keyframes AnimationName {
+      0%{background-position:0% 45%}
+      50%{background-position:100% 56%}
+      100%{background-position:0% 45%}
+  }
+  @keyframes AnimationName { 
+      0%{background-position:0% 45%}
+      50%{background-position:100% 56%}
+      100%{background-position:0% 45%}
+  }
+}
+.nav-item {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin-bottom: 10px ;
+}
+.nav-item:hover {
+    border-bottom: 10px solid #938E94;
+    transition: all ease-in-out .4s;
+    margin: 0;
+}
+.self {
+    width: 40%;
+  animation-name: pulse;
+  animation-delay: 3s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  -webkit-box-shadow: 0px 22px 56px -14px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 22px 56px -14px rgba(0,0,0,0.75);
+box-shadow: 0px 22px 56px -14px rgba(0,0,0,0.75);
+}
+
+ @keyframes float {
+	0% {
+		box-shadow: 0 5px 10px 0px rgba(0,0,0,0.4);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 10px 10px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+	100% {
+		box-shadow: 0 5px 10px 0px rgba(0,0,0,0.4);
+		transform: translatey(0px);
+	}
+}
+#blink {
+    font-weight: 200;
+    font-size: 3.5rem;
+    color: #2E3D48;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-webkit-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-ms-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+  @-o-keyframes "blink" {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+.firstP {
+    font-size: 1rem;
+    font-family: $bodyFont;
+    background-color: $opaqueGrey;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 56px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 56px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 56px -3px rgba(0,0,0,0.75);
+}
+@include media-breakpoint-up(lg) { 
+.firstP {
+    font-size: 1.8rem;
+    font-family: $bodyFont;
+    background-color: $opaqueGrey;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 56px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 56px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 56px -3px rgba(0,0,0,0.75);
+}
+ }
+.skills li {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.3rem;
+  background-color: $opaqueGrey;
+  color: black;
+  font-family: $bodyFont;
+}
+.foot {
+  background-color: $grey;
+}
+.footIcon {
+    width: 2.5rem;
+    height: 3rem;
+    color: $darkerGreyBlue;
+}
+.footIcon:hover {
+  -webkit-animation: rubberBand 1s;
+  animation: rubberBand 1s;
+}
+.copyright, .formLabels {
+  font-family: $bodyFont;
+  font-size: 1rem;
+  opacity: 0.75;
+}
+@include media-breakpoint-up(md) {
+  .copyright, .formLabels {
+    font-family: $bodyFont;
+    font-size: 1.5rem;
+    opacity: 0.75;
+  }
+  }
+.projectCards {
+-webkit-box-shadow: 0px 34px 95px -33px rgba(0,0,0,0.58);
+-moz-box-shadow: 0px 34px 95px -33px rgba(0,0,0,0.58);
+box-shadow: 0px 34px 95px -33px rgba(0,0,0,0.58);
+}
+.cat {
+  color: $darkerGreyBlue; 
+}
