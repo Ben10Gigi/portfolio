@@ -28,14 +28,14 @@ title: Home
             </div>
         </div>
     </div>
-    <div class="row pb-10">
+    <div class="row pb-5">
         <div class="col-md-8 col-12 m-auto">
             <p class="text-center mb-8 p-2 p-md-1 firstP animated fadeIn delay-2s">
                 Hey there, I'm Dennis, a front end designer & developer. I'm passionate about learning new technologies and methods to curate various web apps and am always yearning for continuous improvement on my skills to further build and perfect my current knowledge set.
             </p>
         </div>
     </div>
-    <div data-aos="fade-down" class="row mt-2 mt-md-10 mb-8 skills">
+    <div data-aos="fade-down" class="row mt-2 mb-8 skills">
         <div class="col-md-6 col-12">
             <h3 class="text-center">Skills</h3>
             <hr id="skillsHr">
