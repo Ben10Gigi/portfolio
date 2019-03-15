@@ -64,9 +64,26 @@ title: Home
                             <li>Jekyll</li>
                             <li>Javascript</li>
                             <li>Markdown</li>
+                            <li>npm</li>
                         </ul>
                     </div>
                 </div>
+        </div>
+        <div class="row justify-content-center skills w-100">
+            <div class="col-12">
+                <h3 class="text-center">Actively Studying</h3>
+            <hr id="skillsHr">
+                <div class="row justify-content-center">
+                    <div class="col-md-9 col-12 text-center">
+                        <ul class="skills p-0">
+                            <li>MEAN</li>
+                            <li>Ruby/Ruby On Rails</li>
+                            <li>node.js</li>
+                            <li>neo4j</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
