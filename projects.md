@@ -17,10 +17,10 @@ permalink: /projects/
         <div class="col mt-1">
             <div class="card-deck mt-7 mx-0 mx-lg-10">
                 <div class="card projectCards">
-                    <img src="\assets\images\portfolio_screenie.png" class="card-img-top" alt="...">
+                    <img src="\assets\images\portfolio_screenie.png" class="card-img-top" alt="Portfolio Site">
                     <div class="card-body pb-0 text-center">
                     <h5 class="card-title">Portfolio Site</h5>
-                    <p class="card-text projectCards">This site! Constructed using Bootstrap, various JS and CSS libraries, and generated using Jekyll.
+                    <p class="card-text projectCards">This site! Constructed using HTML, Bootstrap, various JS and CSS libraries, and generated using Jekyll.
                         <div class="row">
                             <div class="col-12">
                                 <button type="button" class="btn btn-outline-dark btn-sm float-right" data-toggle="modal" data-target="#portfolioModal">More Details</button>
@@ -56,10 +56,10 @@ permalink: /projects/
                     </div>
                 </div>
                 <div class="card projectCards">
-                    <img src="\assets\images\splash_screenie.png" class="card-img-top" alt="...">
+                    <img src="\assets\images\splash_screenie.png" class="card-img-top" alt="Splash - Jetski Rentals">
                     <div class="card-body pb-0 text-center">
-                    <h5 class="card-title">Splash! Jet Ski Rentals</h5>
-                    <p class="card-text projectCards">todo later
+                    <h5 class="card-title">Splash Jet Ski Rentals</h5>
+                    <p class="card-text projectCards">A side project created for a local Jetski rental business. Constructed using HTML, Bootstrap, and Javascript. Focused on mobile use.
                         <div class="row">
                             <div class="col-12">
                                 <button type="button" class="btn btn-outline-dark btn-sm float-right" data-toggle="modal" data-target="#centeredModal">More Details</button>
@@ -69,7 +69,7 @@ permalink: /projects/
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title w-100 text-center" id="centeredModalTitle"> - Details</h5>
+                                <h5 class="modal-title w-100 text-center" id="centeredModalTitle">Splash - Details</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
@@ -77,6 +77,13 @@ permalink: /projects/
                             <div class="modal-body pb-0">
                                 <h3 class="text-center pb-2">Technologies Used</h3>
                                 <hr id="skillsHr">
+                                    <p>HTML5/CSS3</p>
+                                    <p>Bootstrap</p>
+                                    <p>Vanilla Javascript</p>
+                                    <p>SASS</p>
+                                    <p>animate.js</p>
+                                    <p>Font Awesome</p>
+                                    <p>Google Maps API</p>
                             </div>
                             <div class="modal-footer">
                             </div>
