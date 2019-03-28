@@ -181,3 +181,9 @@ title: Home
         </div>
     </div>
 </div>
+<script>
+AOS.init();
+window.onbeforeunload = function () {
+window.scrollTo(0, 0);
+}
+</script>
