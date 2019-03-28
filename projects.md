@@ -63,6 +63,7 @@ permalink: /projects/
                         <div class="row">
                             <div class="col-12">
                                 <button type="button" class="btn btn-outline-dark btn-sm float-right" data-toggle="modal" data-target="#centeredModal">More Details</button>
+                               <a href="http://www.splashjetskirentals.com" target="_blank"><button type="button" class="btn btn-outline-dark btn-sm float-left">Website</button></a>
                             </div>
                         </div>
                         <div class="modal fade" id="centeredModal" tabindex="-1" role="dialog" aria-labelledby="centeredModalTitle" aria-hidden="true">
