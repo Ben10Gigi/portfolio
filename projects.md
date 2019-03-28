@@ -56,7 +56,7 @@ permalink: /projects/
                     </div>
                 </div>
                 <div class="card projectCards">
-                    <img src="#" class="card-img-top" alt="...">
+                    <img src="\assets\images\splash_screenie.png" class="card-img-top" alt="...">
                     <div class="card-body pb-0 text-center">
                     <h5 class="card-title">Splash! Jet Ski Rentals</h5>
                     <p class="card-text projectCards">todo later
