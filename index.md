@@ -61,6 +61,7 @@ title: Home
                             <li>CSS/3</li>
                             <li>SASS</li>
                             <li>Bootstrap</li>
+                            <li>Foundation</li>
                             <li>Jekyll</li>
                             <li>Javascript</li>
                             <li>Markdown</li>
