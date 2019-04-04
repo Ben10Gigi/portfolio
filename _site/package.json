@@ -17,6 +17,6 @@
     "popper.js": "^1.14.7"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.7.2"
+    "@fortawesome/fontawesome-free": "^5.8.1"
   }
 }
