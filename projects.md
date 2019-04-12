@@ -13,8 +13,10 @@ permalink: /projects/
 }
 </style>
 <div class="container-fluid">
+<h1 class="text-center mt-3">Projects</h1>
+<hr id="skillsHr">
     <div class="row">
-        <div class="col my-5">
+        <div class="col my-2">
             <div class="card-deck mt-7 mx-0 mx-lg-10">
                 <div class="card pb-md-5 projectCards">
                     <img src="\assets\images\portfolio_screenie.png" class="card-img-top" alt="Portfolio Site">
@@ -98,8 +100,8 @@ permalink: /projects/
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-6 my-5">
-            <div class="card-deck mt-3 mx-0">
+        <div class="col-12 col-md-6 my-md-5">
+            <div class="card-deck mt-md-3 mx-0">
                 <div class="card pb-md-5 projectCards">
                     <img src="\assets\images\lolipoptable_screenie.png" class="card-img-top" alt="Portfolio Site">
                     <div class="card-body pb-0 text-center">

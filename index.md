@@ -165,9 +165,9 @@ title: Home
                     </div>
                 </div>
         </div>
-        <div class="row justify-content-center skills w-100">
+        <div class="row justify-content-center skills w-100 mx-0">
             <div class="col-12">
-                <h3 class="text-center">Actively Studying</h3>
+                <h3 class="text-center">Currently Studying</h3>
             <hr id="skillsHr">
                 <div class="row justify-content-center">
                     <div class="col-md-9 col-12 text-center">
